@@ -1,8 +1,8 @@
 # User Admin
 ## create user
 ```
-sudo adduser --home /data/songhongwei songhongwei
-cd /data & chmod –R 700 songhongwei
+sudo adduser --home /data/zhangsan zhangsan
+cd /data & chmod –R 700 zhangsan
 ```
 
 ## create shareable folder
@@ -10,7 +10,12 @@ cd /data & chmod –R 700 songhongwei
 sudo system-config-samba 
 ```
 
-## completely delete user
+## delete user and data
 ```
-
+# 1. delte samba user first
+sudo system-config-samba
+# 2. delete user
+sudo deluser zhangsan
+# 3. delete user data
+sudo rm –rf /data/zhangsan
 ```
