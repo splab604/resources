@@ -16,6 +16,9 @@ conda remove --name myenv --all
 * CUDA9.0 compatible with tensorlfow <1.13
 * Install tensorflow-gpu 1.12, only compatible with python <= 3.6
 ```
+# add CUDA library to your link path in /data/YOUR_NAME/.bashrc
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64/
+
 # create new environment with python 3.6
 conda create -n tf python=3.6
 
