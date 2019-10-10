@@ -39,7 +39,8 @@ tf.__version__
 tf.Session()
 ```
 
-## 3. Pycharm
+## 4. Pycharm
+* Download and install from official website
 
 * [Configuring a conda environment in PyCharm](https://docs.anaconda.com/anaconda/user-guide/tasks/pycharm/)
 
