@@ -12,15 +12,11 @@ conda remove --name myenv --all
 ```
 
 ## 2. Install Tensorflow
+* For now, all servers installed CUDA9.0 at /usr/local/CUDA, which links to /usr/local/CUDA-9.0
+* CUDA9.0 compatible with tensorlfow <1.13
+* install tensorflow-gpu 1.12, only compatible with python < 3.6
 ```
-# create new virtual env 'tf1', with python3.7
-conda create -n tf1 python=3.7 pip
-
-# activate env when using
-source activate tf
-
-# usde `conda` instead of `pip` to install tensorflow-gpu and corresponding CUDA driver
-conda install tensorflow-gpu
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.12.0-cp36-cp36m-linux_x86_64.whl
 ```
 
 
