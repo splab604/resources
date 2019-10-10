@@ -24,3 +24,7 @@ conda install tensorflow-gpu
 ```
 
 
+## pycharm
+
+* [Configuring a conda environment in PyCharm](https://docs.anaconda.com/anaconda/user-guide/tasks/pycharm/)
+
