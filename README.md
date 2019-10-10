@@ -27,7 +27,7 @@ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorfl
 ```
 
 
-## pycharm
+## 3. Pycharm
 
 * [Configuring a conda environment in PyCharm](https://docs.anaconda.com/anaconda/user-guide/tasks/pycharm/)
 
