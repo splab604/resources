@@ -13,7 +13,7 @@ conda remove --name myenv --all
 
 ## 2. Install Tensorflow
 ```
-# create new virtual env 'tf', with python3.7
+# create new virtual env 'tf1', with python3.7
 conda create -n tf1 python=3.7 pip
 
 # activate env when using
