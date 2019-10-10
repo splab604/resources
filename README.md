@@ -8,6 +8,9 @@ conda create -n myenv
 
 # remove env
 conda remove --name myenv --all
+
+# list env
+conda env list
 ```
 
 ## 2. Install Pytorch
