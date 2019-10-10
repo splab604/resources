@@ -6,7 +6,7 @@
 
 
 ## 2. Install Tensorflow
-### [install](https://www.tensorflow.org/install/pip#3.-%E5%AE%89%E8%A3%85-tensorflow-pip-%E8%BD%AF%E4%BB%B6%E5%8C%85)
+* [install documentation](https://www.tensorflow.org/install/pip#3.-%E5%AE%89%E8%A3%85-tensorflow-pip-%E8%BD%AF%E4%BB%B6%E5%8C%85)
 * All Servers installed CUDA9.0
 * CUDA9.0 compatible with tensorlfow <1.13
 * install tensorflow-gpu 1.12, only compatible with python < 3.6
