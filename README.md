@@ -19,7 +19,7 @@ conda create -n tf1 python=3.7 pip
 # activate env when using
 source activate tf
 
-# install tensorflow-gpu
+# usde `conda` instead of `pip` to install tensorflow-gpu and corresponding CUDA driver
 conda install tensorflow-gpu
 ```
 
