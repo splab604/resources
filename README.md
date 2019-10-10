@@ -1,7 +1,7 @@
 # 示例
 
 ## [install Anaconda](https://docs.anaconda.com/anaconda/install/linux/)
-* virtual env management
+* python virtual environment management
 * python package install
 
 
