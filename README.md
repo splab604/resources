@@ -1,4 +1,3 @@
-# 示例
 
 ## 1. [Install Anaconda](https://docs.anaconda.com/anaconda/install/linux/)
 * python virtual environment management
