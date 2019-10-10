@@ -10,7 +10,13 @@ conda create -n myenv
 conda remove --name myenv --all
 ```
 
-## 2. Install Tensorflow (Recommend Python3.6 + Tensorflow-gpu1.12)
+## 2. Install Pytorch
+```
+conda create -n torch3 python=3.6 pip
+conda install pytorch torchvision -c pytorch
+```
+
+## 3. Install Tensorflow (Recommend Python3.6 + Tensorflow-gpu1.12)
 * For now, all servers installed CUDA9.0 at /usr/local/CUDA, which links to /usr/local/CUDA-9.0
 * CUDA9.0 compatible with tensorlfow <1.13
 * Install tensorflow-gpu 1.12, only compatible with python <= 3.6
@@ -32,7 +38,6 @@ import tensorflow as tf
 tf.__version__
 tf.Session()
 ```
-
 
 ## 3. Pycharm
 
