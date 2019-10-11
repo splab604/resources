@@ -62,6 +62,9 @@ CUDA_VISIBLE_DEVICES=5 python myapp.py
 # Option3: set python environment variable inside program
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="5"
+
+# Option4: in pycharm
+Edit Configurations -> Environment -> Environment Variables -> '+' add one variable CUDA_VISIBLE_DEVICES=5
 ```
 * Method2: use `tf.device` in your tensorflow program
 ```
