@@ -48,3 +48,22 @@ tf.Session()
 
 * [Configuring a conda environment in PyCharm](https://docs.anaconda.com/anaconda/user-guide/tasks/pycharm/)
 
+## 5. Specify GPU
+* GPU ID from 0 to 5.
+* Method1: Set CUDA_VISIBLE_DEVICES
+```
+# Option1: set CUDA_VISIBLE_DEVICES in .bashrc
+export CUDA_VISIBLE_DEVICES="0"
+
+# Option2: set python environment variable by command line
+CUDA_VISIBLE_DEVICES=5 python myapp.py
+
+# Option3: set python environment variable inside program
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="1"
+```
+* Method2: use `tf.device` in your tensorflow program
+```
+with tf.device('/gpu:2'):
+  # create your graph here
+```
