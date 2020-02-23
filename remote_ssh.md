@@ -31,7 +31,16 @@ ssh songhongwei@182.92.197.175 -p 60404
   * URL: https://ivpn.hit.edu.cn
  
 * 查看实验室路由器的 ip 地址：https://github.com/splab604/resources/blob/master/RouterIp.md
-  * 实验室路由器 ip 地址不是固定的，需要在 `RouterIp.md` 中查看最新的 ip 地址
+  * ~~实验室路由器 ip 地址不是固定的，需要每天在 `RouterIp.md` 中查看最新的 ip 地址~~
+  * 已加入 ddns 功能，可以直接使用域名，不用每天查看 ip：
+ 
+    ```bash
+    # 远程桌面, x = 1~6
+    ddns.splab604.xyz:3389x
+ 
+    # ssh, x = 1~6
+    ssh -p 2221x <username>@ddns.splab604.xyz
+    ```
  
 * 登录远程桌面
   
