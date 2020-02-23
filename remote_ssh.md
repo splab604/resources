@@ -27,7 +27,7 @@ ssh songhongwei@182.92.197.175 -p 60404
 
 ## 方案二
 
-* 下载 [easyconnect](https://sslvpn.zjweu.edu.cn/com/installClient.html) 连接到学校的 vpn
+* 下载 [easyconnect](http://static.hit.edu.cn/vpn/) 连接到学校的 vpn
   * URL: https://ivpn.hit.edu.cn
  
 * 查看实验室路由器的 ip 地址：https://github.com/splab604/resources/blob/master/RouterIp.md
