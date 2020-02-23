@@ -1,4 +1,6 @@
 ipaddr.sh
 AutoUpdate.sh
 ddns.sh
-cloudflare.ids
+.cloudflare.ids
+.cloudflare.log
+.old_ip.txt
