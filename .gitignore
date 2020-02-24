@@ -1,6 +1,6 @@
 ipaddr.sh
 AutoUpdate.sh
-ddns.sh
+git_ddns.sh
 .cloudflare.ids
-.cloudflare.log
+.git_ddns.log
 .old_ip.txt
