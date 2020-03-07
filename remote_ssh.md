@@ -26,38 +26,14 @@ ssh songhongwei@182.92.197.175 -p 60404
   * 暂时无。返校后将尝试向网络中心，为服务器申请固定IP。
 
 ## 方案二
+1. **非校园网环境**下载 [easyconnect](http://static.hit.edu.cn/vpn/) 连接到学校的 vpn
+  * URL 填写: https://ivpn.hit.edu.cn
 
-* 下载 [easyconnect](http://static.hit.edu.cn/vpn/) 连接到学校的 vpn (回到学校后在宿舍使用校园网就不再需要连接 vpn 了)
-  * URL: https://ivpn.hit.edu.cn
- 
-* 查看实验室路由器的 ip 地址：https://github.com/splab604/resources/blob/master/RouterIp.md
-  * ~~实验室路由器 ip 地址不是固定的，需要每天在 `RouterIp.md` 中查看最新的 ip 地址~~
-  * 已加入 ddns 功能，可以直接使用域名，不用每天查看 ip：
- 
+2. 通过 easyconnect 连接到学校 vpn 后或本身就处于校园网环境下（连接了 HIT-wlan），使用域名 `ddns.splab604.xyz` 登录远程桌面或 ssh
+
     ```bash
     # 远程桌面, x = 1~6
     ddns.splab604.xyz:3389x
- 
+
     # ssh, x = 1~6
     ssh -p 2221x <username>@ddns.splab604.xyz
-    ```
- 
-* 登录远程桌面
-  
-  ```bash
-  # x = 1~6, 端口 3389x 对应 211 到 216
-  <路由器 ip>:3389x
-  
-  # 例如登录 211 服务器远程桌面
-  172.17.233.19:33891
-  ```
-  
-* ssh
-  
-  ```bash
-  # 2221x: x = 1~6
-  ssh -p 2221x <username>@<路由器 ip>
-  
-  # 例如连接 211 服务器
-  ssh -p 22211 lijianchen@172.17.233.19
-  ```
