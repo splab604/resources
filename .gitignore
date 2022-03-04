@@ -4,4 +4,6 @@ ddns.sh
 git_ddns.sh
 .git_ddns.log
 .cloudflare.ids
+.cloudflare1.ids
 .old_ip.txt
+vpn.sh
